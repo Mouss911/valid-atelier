@@ -1,0 +1,100 @@
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+
+/* ---------------------------------
+         SECTION HEADER
+--------------------------------- */
+
+    /* NAVBAR 1 */
+.navbar .btn1{ color: #fff; background: #6f9a37;}
+.navbar .btn1:hover{ color: #6f9a37; background: #fff;}
+    /* NAVBAR 2 */
+#nav-bar{ position: sticky; top: 0; z-index: 10; }
+.navbar-nav li{ padding: 0 10px;}
+.navbar-nav li a{ color: black !important; font-weight: 600; float: right; text-align: left;}
+.navbar-nav li a:hover{ color: green; background: white; border-radius: 5px; border: 1px solid green;}
+.fa-bars{ color: black; font-size: 30px !important; }
+.navbar-toggler{ outline: none !important; }
+#navbarNav .btn{ color: #fff; font-weight: 600;}
+
+.gris{ color: gray;}
+
+/* ---------------------------------
+         SECTION FAQ
+--------------------------------- */
+#faq .num26{ color: #18191c; font-size: 150px; text-shadow: #fec63c 10px 10px 10px;
+    position: relative; margin-top: -130px;}
+#faq .exp{ font-size: 40px; font-weight: 300; color: #18191c;}
+#faq .titre i{ width: 50px; height: 50px; border-radius: 50%; background: #fec63c; display: flex; justify-content: center;
+    align-items: center;}
+#faq .titre i:hover{background: #18191c; color: white;}
+
+/* ---------------------------------
+        SECTION TESTIMONIALS
+--------------------------------- */
+#testimonials .boite img{ margin-left: 20px;}
+#testimonials .icones i{ width: 50px; height: 50px; border-radius: 50%; background: #fff; display: flex;
+    justify-content: center; align-items: center;}
+#testimonials .icones{ margin-left: 20px;}
+#testimonials .icones i:hover{ background: #18191c; color: #fff;}
+#testimonials .donald img{ width: 100px; height: 100px; border: 10px solid white;}
+#testimonials .card{ border-bottom: 10px solid #18191c;}
+
+@media screen and (max-width:768px){
+    #testimonials .icones{ margin-left: 0;}
+    #testimonials .boite img{ margin-left: 0;}
+}
+
+/* ---------------------------------
+         SECTION CHOIX
+--------------------------------- */
+#choix .deux{ position: relative; top: -250px;}
+#choix .bas{ border: 10px solid #18191c;}
+#choix .bas i{ width: 60px; height: 60px; display: flex; justify-content: center; align-items: center;
+    background: #fec63c; color: #18191c;}
+#choix .bas i:hover{ background: #18191c; color: #fec63c;}
+
+@media screen and (max-width:768px){
+    #choix .deux{ top: 0;}
+    #choix .bas{ display: flex; flex-direction: column;}
+}
+
+/* ---------------------------------
+         SECTION PROJETS
+--------------------------------- */
+#projet .card i{ width: 50px; height: 50px; background: #18191c; color: #fff; display: flex;
+    justify-content: center; align-items: center;}
+#projet .card i:hover{ background: #fec63c; color: #18191c;}
+#projet .apres i{ width: 80px; height: 80px; background: #fec63c; color: #fff; display: flex;
+    justify-content: center; align-items: center; margin: auto; border: 5px solid gray;}
+#projet .apres .num{ font-size: 70px;}
+
+
+
+/*    DOS SANTOS   */
+.from .container{
+    padding: 80px 0;
+    margin: 100px auto;
+}
+
+#dos-santos .from .container p{
+    color: aqua;
+}
+
+#dos-santos .card-body h5{
+    font-size: 10px;
+    background: rgb(229, 229, 48);
+    width: 25%;
+    padding: 5%;
+    position: relative;
+    top: -50px;
+}  
+
+#dos-santos .card-body p{
+    background: #000;
+    color: #000;
+}
+
+#dos-santos .contact-section{
+  background-image: url('image/pattern-5.jpg');
+}
+/*    DOS SANTOS   */
